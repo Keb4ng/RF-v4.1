@@ -1,0 +1,785 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./media/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ribbonfish V4 Prototype</title>
+  </head>
+  <body>
+    <main>
+      <header class="main-header">
+        <div
+          class="custom-container"
+          data-aos="fade-in"
+          data-aos-delay="200"
+          data-aos-once="true"
+        >
+          <div class="header-inner">
+            <div>
+              <a href="./index.html"
+                ><img src="./media/CompanyLogo.png" alt="logo-test"
+              /></a>
+            </div>
+            <div class="header-navs">
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./success-stories.html">Success Stories</a></li>
+                <li>
+                  <a href="#">
+                    Our Sustainability Commitment
+                  </a>
+                </li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-header">
+          <div class="mobile-header__cont">
+            <div class="mobile-header__btn burger-menu">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="mobile-header__btn">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="mobile-header__btn">
+              <a
+                href="https://www.linkedin.com/company/2741697/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="mobile-menu">
+            <ul>
+              <a href="./index.html"><li>Home</li></a>
+              <a href="./success-stories.html"><li>Success Stories</li></a>
+              <a href="#">
+                <li>
+                  Our Sustainability Commitment
+                </li>
+              </a>
+              <a href="./about.html"><li>About</li></a>
+              <a href="#"><li>Contact</li></a>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="ip-banner">
+        <div class="custom-container">
+          <div class="ip-banner-wrapper">
+            <p class="ip-breadcrumbs">Home / About Us</p>
+            <h1
+              class="ip-banner-tagline"
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-delay="500"
+            >
+              <span>OUR:TEAM</span>YOUR FUTURE SUCCESS
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-headline">
+        <div class="custom-container">
+          <div class="headline-wrapper">
+            <div
+              class="col intro__img"
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              <img src="./media//RF overlay logo.png" alt="Ribbonfish.co.uk" />
+            </div>
+            <div
+              class="col"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              <p>
+                <span>EXPERT CONSULTANTS IN CRM AND SALESFORCE</span> Our London
+                and New Delhi teams share outstanding technical skills, a long
+                held passion for the publishing and media industries, and a
+                desire to provide phenomenal customer service. This means we can
+                deliver unbeatable results – whether providing consultancy
+                services to facilitate solutions to complex CRM problems or
+                delivering Salesforce applications that transform your business.
+                We have decades of publishing experience, having managed and
+                delivered global business applications for world-leading
+                publishers, and we employ the brightest apprentices and
+                graduates to help us stay ahead of the curve with modern-day
+                alternatives to legacy solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="custom-container">
+          <div class="section-t-wrap">
+            <div
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-delay="500"
+            >
+              <span>Meet</span>
+              <p>THE TEAM</p>
+            </div>
+          </div>
+          <button class="team-next-btn">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="team-prev-btn">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <div
+            class="team-slider-wrap"
+            data-aos="fade-in"
+            data-aos-once="true"
+            data-aos-delay="300"
+            data-aos-offset="500"
+          >
+            <div class="main-team-slider">
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/marc.jpg" alt="Marc Defosse" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Marc Defosse</p>
+                    <p class="featured-pos">FOUNDER</p>
+                    <p class="featured-desc">
+                      Marc started his careeer at Accenture, and has
+                      subsequently worked on designing and implementing
+                      innovative CRM solutions for publishers around the world,
+                      understanding their goals and vision so he can deliver
+                      optimal value
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/Alex.png" alt="Alex" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Alex Kapp</p>
+                    <p class="featured-pos">PROJECT MANAGER</p>
+                    <p class="featured-desc">
+                      Alex has over 20 years experience in various operational
+                      and technical roles within STM and Educational publishing.
+                      This brings a wealth of business expertise and a real
+                      understanding of client requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/ali.jpeg" alt="Ali" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Ali Zaidi</p>
+                    <p class="featured-pos">SENIOR CONSULTANT</p>
+                    <p class="featured-desc">
+                      With more than a decade of dedicated engagement within the
+                      Salesforce ecosystem, Ali has cultivated extensive
+                      expertise encompassing configuration, development,
+                      architecture, and DevOps methodologies. Demonstrating
+                      adeptness across these domains, Ali serves as a technical
+                      lead, architect, and advisor in facilitating digital
+                      transformation initiatives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/chris.png" alt="Chris" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Chris Trainor</p>
+                    <p class="featured-pos">SENIOR CONSULTANT</p>
+                    <p class="featured-desc">
+                      Having started as an apprentice doing .NET 8 years ago,
+                      Chris has since become a talented Salesforce developer and
+                      integration specialist ensuring all customer requirements
+                      and benefits are realised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/elena.png" alt="Elena" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Elena Baird</p>
+                    <p class="featured-pos">SALESFORCE CONSULTANT</p>
+                    <p class="featured-desc">
+                      Elena brings a wealth of knowledge and experiences,
+                      especially with financial and accounting processes and
+                      systems. She enjoys continuous learning and is passionate
+                      about increasing efficiency by optimising operational
+                      processes through business automation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/emily.png" alt="Emily" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Emily King</p>
+                    <p class="featured-pos">SENIOR PROJECT MANAGER</p>
+                    <p class="featured-desc">
+                      Emily has experience in optimising, automating and
+                      streamlining business processes. She enjoys learning new
+                      technologies, analysing problems, delivering solutions,
+                      and working cross-functionally to effectively manage
+                      projects end-to-end for all stakeholders.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/Jess.jpg" alt="Jessica" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Jessica Healy</p>
+                    <p class="featured-pos">HEAD OF OPERATIONS</p>
+                    <p class="featured-desc">
+                      Jess has over 8 years of experience in operational roles.
+                      She is experienced in increasing efficiency and driving
+                      down operational cost. A flexible and motivated manager,
+                      Jess enjoys working closely with her team to deliver
+                      business growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/Kevin.jpg" alt="Kevin" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Kevin Paul</p>
+                    <p class="featured-pos">HEAD OF PROFESSIONAL SERVICES</p>
+                    <p class="featured-desc">
+                      Kevin has over a decade worth of experience in Information
+                      Technology in a variety of roles including consulting &
+                      implementation, training, business analysis and project
+                      management.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/raja.png" alt="Raja" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Raja Majjiga</p>
+                    <p class="featured-pos">SALESFORCE DEVELOPER</p>
+                    <p class="featured-desc">
+                      Raja is a self-motivated, quick learner with the ability
+                      to adapt and conform to changing responsibilities. He has
+                      15 years of experience in software engineering industry.
+                      During his career, he worked as an engineer, lead, and
+                      Director of Software Engineering team. He recently shifted
+                      gears to Salesforce eco system.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/sam.png" alt="Sam" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Sam Tamayo</p>
+                    <p class="featured-pos">MANAGING DIRECTOR – MANILA</p>
+                    <p class="featured-desc">
+                      Sam believes in the transformative capability of using
+                      technology for sustainable development. She has extensive
+                      professional experience in digital marketing – from
+                      running email campaigns to managing global websites.
+                      Outside work, she leads an award-winning youth-led NGO in
+                      the Philippines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/sanjeev.jpg" alt="Marc Defosse" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Sanjeev Dash</p>
+                    <p class="featured-pos">HEAD OF STRATEGY</p>
+                    <p class="featured-desc">
+                      Sanjeev is a media consultant who has worked for leading
+                      academic publishers, newspapers and market research firms.
+                      He has experience in requirements and discovery workshops,
+                      technology audits and business analysis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/signe.png" alt="Signe" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Signe Thomsen</p>
+                    <p class="featured-pos">DEVELOPER</p>
+                    <p class="featured-desc">
+                      Signe is a recent convert to the Salesforce eco system.
+                      She is interested in building efficient solutions to
+                      deliver highly useable experiences and has been working
+                      with Salesforce CPQ and Marketing Cloud. She is always on
+                      board to tackle a fresh challenge.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="featured-slide">
+                <div class="col featured-emp">
+                  <div class="featured-emp-inner">
+                    <img src="./media/team/valentin.jpg" alt="Valentin" />
+                  </div>
+                </div>
+                <div class="col featured-details">
+                  <div class="featured-details-inner">
+                    <p class="featured-name">Valentin Romanov</p>
+                    <p class="featured-pos">SALESFORCE DEVELOPER</p>
+                    <p class="featured-desc">
+                      Valentin obtained a Bachelor’s degree in Software
+                      Engineering. Currently, he serves as one of our leads He
+                      has four years of experience in Salesforce and possesses
+                      six certifications
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="prev-team-slide">
+              <div class="prev-img-wrap">
+                <img src="./media/team/Alex.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/ali.jpeg" alt="Ali" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/chris.png" alt="Chris" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/elena.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/emily.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/Jess.jpg" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/Kevin.jpg" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/raja.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/sam.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/sanjeev.jpg" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/signe.png" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/valentin.jpg" alt="Alex" />
+              </div>
+              <div class="prev-img-wrap">
+                <img src="./media/team/marc.jpg" alt="Alex" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="what-we-do page-headline">
+        <div class="custom-container">
+          <div class="headline-wrapper">
+            <div class="col">
+              <p>
+                <span>WHAT WE DO</span>We work with publishers to streamline
+                workflow and transform business processes. Once a functionality
+                gap or a workflow inefficiency has been identified, we leverage
+                Salesforce as a low code platform to develop customer specific
+                solutions, with modules like Publicity or Advertising, which can
+                then be adapted by our other customers. In addition, we also
+                work to implement standard Salesforce CRM, Case Management,
+                Marketing Cloud modules and integrate them with the existing
+                technology architecture.
+              </p>
+            </div>
+            <div class="col">
+              <img src="./media/featured image 1.png" alt="Ribbonfish.co.uk" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="what-we-do-slider">
+        <div class="custom-container">
+          <div class="wwd-slick-arrows">
+            <button class="wwd-next">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="wwd-prev">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="wwd-slider-wrap">
+            <div class="col">
+              <i class="fa-solid fa-cloud"></i>
+              <span>Passion-Driven Excellence</span>
+              <p>
+                We delve into each project with enthusiasm, aiming not just to
+                meet, but to exceed expectations. Through our fervor, we strive
+                to be more than just a solutions provider; we aim to be a valued
+                partner in our client’s journey towards streamlined operations
+                and sustained growth.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-bars"></i>
+              <span>Salesforce Rollouts</span>
+              <p>
+                We transform companies by implementing, enhancing and
+                integrating the Salesforce ecosystem: Salesforce CRM and CPQ to
+                consolidate your customer data, gain insights and sell smarter;
+                Service Cloud to retain your customers and enhance their
+                experience; and Marketing Cloud and Pardot to ensure your
+                long-term success with marketing automation.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-desktop"></i>
+              <span>Salesforce Apps</span>
+              <p>
+                Get even more out of Salesforce with pre-built solutions. With
+                our partners Rights2 Consultants, we developed and launched
+                RightsZone – the next generation rights system with elegant and
+                intuitive workflow tools facilitating the whole lifecycle of
+                rights licensing, helping you manage deals swiftly and
+                efficiently, and facilitating smarter working to grow your
+                revenue.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-regular fa-lightbulb"></i>
+              <span>Consultancy</span>
+              <p>
+                We provide strategy and consulting to help you transform your
+                company – whether that’s to drive growth, secure efficiencies or
+                diversify your business. We can work with you to align your
+                technology and business strategies and create a robust, costed
+                technology roadmap with dependencies that ensures you realise
+                the benefits of the digital transformation you are seeking.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-regular fa-comments"></i>
+              <span>System Reviews</span>
+              <p>
+                From submissions, editorial and production to sales, marketing,
+                publicity and across the whole workflow, insights and reporting
+                capabilities, we review your software across the entire
+                publishing lifecycle. You’ll receive a report reviewing the
+                product’s architecture, security, infrastructure, functionality,
+                people, process and governance and a list of prioritised
+                recommendations.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <span>Support</span>
+              <p>
+                To maintain your Salesforce applications, we provide support
+                services ranging from just 4 days a month to a dedicated
+                individual for 5 days a week – and all the way through to an
+                entire team. We can work alongside your internal technology
+                support team, or we can provide the complete service – working
+                with your business users to help them get the most out of your
+                systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-mission page-headline">
+        <div class="custom-container">
+          <div class="headline-wrapper">
+            <div class="col">
+              <img src="./media/featured image 2.png" alt="Ribbonfish.co.uk" />
+            </div>
+            <div class="col">
+              <p>
+                <span>OUR MISSION</span> We aim to empower publishers through
+                innovative technological solutions to achieve success through
+                seamless workflows and enhanced business processes whilst
+                putting our customers and users at the heart of the solution.
+                Our tailored approaches not only address unique challenges but
+                foster a community of shared progress, where solutions evolve
+                collectively benefiting all stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-mission-slider">
+        <div class="custom-container">
+          <div class="wwd-slick-arrows">
+            <button class="om-next">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="om-prev">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="om-slider-wrap">
+            <div class="col">
+              <i class="fa-regular fa-star"></i>
+              <span>Passion-Driven Excellence</span>
+              <p>
+                We delve into each project with enthusiasm, aiming not just to
+                meet, but to exceed expectations. Through our fervor, we strive
+                to be more than just a solutions provider; we aim to be a valued
+                partner in our client’s journey towards streamlined operations
+                and sustained growth.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-regular fa-lightbulb"></i>
+              <span>Innovation</span>
+              <p>
+                We strive for a culture of continuous improvement and innovation
+                to provide cutting-edge solutions. Our approach is rooted in
+                understanding the evolving needs of the publishing sector and
+                leveraging the power of Salesforce to meet these needs.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-heart-circle-check"></i>
+              <span>Customer-Centricity</span>
+              <p>
+                Every functionality gap and workflow inefficiency presents an
+                opportunity to create value. We listen, we analyze, and we
+                tailor our solutions to meet the unique needs of each customer.
+                We believe in building relationships based on trust and
+                long-term collaboration.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-puzzle-piece"></i>
+              <span>Collaborative Evolution</span>
+              <p>
+                We value the power of shared progress. When one client benefits
+                from a solution, the ripple effect can be felt across our entire
+                customer base. Our environment encourages learning, sharing, and
+                adapting solutions collectively, forging a path of shared
+                success.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-user-gear"></i>
+              <span>Sustainable Transformation</span>
+              <p>
+                We aim for solutions that not only resolve present challenges
+                but are adaptable to future changes, ensuring a sustainable
+                transformation of business processes. Our responsibility extends
+                beyond immediate solutions to creating a legacy of enduring
+                value.
+              </p>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-heart"></i>
+              <span>Ethical Integrity</span>
+              <p>
+                We conduct our business with the highest standards of
+                professional ethics, transparency, and accountability. Our
+                reputation is built on the trust and reliability perceived by
+                our clients and partners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="git-section">
+        <div class="custom-container">
+          <div class="git-wrapper">
+            <div class="col">
+              <div class="section-t-wrap">
+                <div class="section-title">
+                  <p>CONTACT US</p>
+                </div>
+              </div>
+              <div class="form-wrapper">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" placeholder="First Name" />
+                  </div>
+                  <div class="col">
+                    <input type="text" placeholder="Last Name" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" placeholder="Email Address" />
+                  </div>
+                  <div class="col">
+                    <input type="text" placeholder="Company" />
+                  </div>
+                </div>
+                <div class="col">
+                  <textarea class="msg-bx" placeholder="Message..."></textarea>
+                </div>
+                <button class="gsite-btn">SUBMIT</button>
+              </div>
+            </div>
+            <div class="col info-wrapper">
+              <div class="git-logo">
+                <img src="./media/favicon.png" alt="Company Logo" />
+              </div>
+              <div class="git-rf-logo">
+                <img src="./media/RF Logo.png" alt="Company Logo" />
+              </div>
+              <div class="contact-details-wrapper">
+                <div class="contact-details">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>35 New Broad St, London EC2M 1NH, United Kingdom</p>
+                </div>
+                <div class="contact-details">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>contactus@ribbonfish.com</p>
+                </div>
+                <div class="contact-smi">
+                  <div class="smi-cont">
+                    <a
+                      href="https://www.linkedin.com/company/2741697/"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/RibbonfishTeam"
+                      target="_blank"
+                      ><i class="fa-brands fa-square-facebook"></i
+                    ></a>
+                  </div>
+                  <img
+                    src="./media/Salesforce Logo.png"
+                    alt="Salesforce Partner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="custom-container">
+          <div class="footer-wrapper">
+            <ul class="footer-navs">
+              <li>Home</li>
+              <li>Success Stories</li>
+              <li>News Our Sustainability</li>
+              <li>Contact</li>
+              <li>About</li>
+            </ul>
+            <p>
+              © Ribbonfish 2023. Registered in England and Wales, Company Number
+              6412108 | <span>Privacy Notice</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+  ></script>
+  <script src="https://kit.fontawesome.com/65e82f8b2f.js"></script>
+  <script src="./scripts.js"></script>
+</html>
