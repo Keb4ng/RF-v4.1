@@ -1,0 +1,688 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./media/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ribbonfish V4 Prototype</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div
+        class="custom-container"
+        data-aos="fade-in"
+        data-aos-delay="200"
+        data-aos-once="true"
+      >
+        <div class="header-inner">
+          <div>
+            <a href="./index.html"
+              ><img src="./media/CompanyLogo.png" alt="logo-test"
+            /></a>
+          </div>
+          <div class="header-navs">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./success-stories.html">Success Stories</a></li>
+              <li>
+                <a href="./sustainability.html">
+                  Our Sustainability Commitment
+                </a>
+              </li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-header">
+        <div class="mobile-header__cont">
+          <div class="mobile-header__btn burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="mobile-header__btn">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="mobile-header__btn">
+            <a href="https://www.linkedin.com/company/2741697/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <ul>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./success-stories.html"><li>Success Stories</li></a>
+            <a href="./sustainability.html">
+              <li>
+                Our Sustainability Commitment
+              </li>
+            </a>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="ip-banner --tailored-bg">
+      <div class="custom-container">
+        <div class="ip-banner-wrapper">
+          <p class="ip-breadcrumbs">Home / Tailored Services</p>
+          <h1
+            class="ip-banner-tagline"
+            data-aos="fade-right"
+            data-aos-once="true"
+            data-aos-delay="500"
+          >
+            TAILORED SERVICES
+            <div>
+              <p>WE ARE AN END-TO-END TECHNOLOGY CONSULTANCY</p>
+              <p>
+                Designed to take some of the burden and workload away from you
+                in managing and improving your Salesforce instance. Learn more
+                about our custom offerings and allow us to jumpstart your
+                organization.
+              </p>
+            </div>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="roadmap-view --waved">
+      <div class="custom-container">
+        <p class="section-title">OVERVIEW OF OUR PROCESS</p>
+        <div class="roadmap__wrap">
+          <div class="col">
+            <div class="roadmap__count">
+              <span>1</span>
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <p>
+              Weekly Call with Ribbonfish Project Manager to discuss your
+              priorities
+            </p>
+          </div>
+          <div class="col">
+            <div class="roadmap__count">
+              <span>2</span>
+              <i class="fa-solid fa-user-check"></i>
+            </div>
+            <p>Ribbonfish works on your priorities through the week</p>
+          </div>
+          <div class="col">
+            <div class="roadmap__count">
+              <span>3</span>
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <p>Ribbonfish PM conducts regular checks with the team</p>
+          </div>
+          <div class="col">
+            <div class="roadmap__count">
+              <span>4</span>
+              <i class="fa-solid fa-handshake-angle"></i>
+            </div>
+            <p>
+              Results and outcomes shared with you at the end of the week and in
+              advance of the weekly meeting
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-roadmap">
+      <div class="custom-container">
+        <div class="tech-roadmap__wrap">
+          <div class="col tech-left">
+            <span class="tech-title">WHAT CAN I USE MY HOURS ON?</span>
+            <p class="tech-desc">
+              Wondering how you can split your time with us? We have a full
+              range of various offerings that your organization can utilize as
+              part of the Ribbonfish package.
+            </p>
+          </div>
+          <div class="col">
+            <div class="tech-roadmap__icons">
+              <div class="col">
+                <i class="fa-solid fa-gears"></i><span>Custom development</span>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-laptop-file"></i><span>Training</span>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-sliders"></i
+                ><span>Configuration and maintenance</span>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-link"></i
+                ><span>Bespoke integrations</span>
+              </div>
+              <div class="col">
+                <i class="fa-regular fa-comments"></i><span>Consulting</span>
+              </div>
+              <div class="col">
+                <i class="fa-solid fa-gear"></i><span>Automations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rf-advantage">
+      <div class="custom-container">
+        <div class="roadmap-titles">
+          <p class="section-title">
+            INCLUSIONS
+          </p>
+          <span>
+            We partner together with your internal team, and amongst other
+            things, we can develop and manage your application, offer support
+            and training, or build custom-made offerings to meet your needs.
+          </span>
+        </div>
+        <div class="rf-advantage__wrap --altered-g">
+          <div class="col">
+            <i class="fa-regular fa-calendar"></i
+            ><span
+              >"X" days per month with access to a skilled resource pool</span
+            >
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-copy"></i>
+            <span>Tasks and priorities are decided by you</span>
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-lightbulb"></i>
+            <span
+              >Consultations, advice, and suggestions on your target areas</span
+            >
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-id-card"></i>
+            <span>Dedicated project management team</span>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>Provision of a ticketing system for logging cases</span>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <span
+              >Highly qualified team of certified administrators and
+              developers</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-composition --less-pd">
+      <div class="custom-container">
+        <div class="roadmap-titles">
+          <p class="section-title">
+            MEET THE TEAM
+          </p>
+          <span>Your tailored support specialists will include:</span>
+        </div>
+        <div class="team-comp__wrap">
+          <div class="col">
+            <div class="team-comp__img">
+              <img src="./media/tailored1.jpeg" alt="Services Delivery Lead" />
+            </div>
+            <span>Services Delivery Lead</span>
+            <p>
+              Ensures overall success of the project and acts as point of
+              escalation.
+            </p>
+          </div>
+          <div class="col">
+            <div class="team-comp__img">
+              <img src="./media/tailored2.png" alt="Project Manager" />
+            </div>
+            <span>Project Manager</span>
+            <p>
+              Manages the backlog, priorities and deliverables together with
+              you, the client.
+            </p>
+          </div>
+          <div class="col">
+            <div class="team-comp__img">
+              <img
+                src="./media/tailored3.jpeg"
+                alt="Implementation Architect"
+              />
+            </div>
+            <span>Implementation Architect</span>
+            <p>
+              Tasked via the Project Manager as required to meet your tailored
+              needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tailored-form-section">
+      <div class="custom-container">
+        <div class="tailored-form">
+          <div class="col-6 tailored-form__img">
+            <img src="media/tailoredteam.png" alt="Tailored Services Team" />
+          </div>
+          <div class="col-6 cu-form__container">
+            <p class="tailored-form__title">
+              LET’S START SOMETHING NEW SAY HELLO!
+            </p>
+            <p>
+              We would love to help your company achieve greater heights. Get a
+              <b>free trial of our Tailored Services</b> – simply complete the
+              form below and click ‘Send’ to embark on this exciting venture and
+              get more details. For additional details on our tailored services,
+              scroll down. Let’s soar to new heights together!
+            </p>
+            <div class="row">
+              <div class="col">
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="col">
+                <input type="text" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="text" placeholder="Email " />
+              </div>
+              <div class="col">
+                <input type="text" placeholder="Company" />
+              </div>
+            </div>
+            <div class="cu__message">
+              <textarea placeholder="Message"></textarea>
+              <button class="cu__message-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates">
+      <div class="custom-container">
+        <div class="roadmap-titles">
+          <p class="section-title">
+            OUR CERTIFICATIONS
+          </p>
+          <span
+            >At Ribbonfish, we are committed to delivering the highest level of
+            excellence for our customers. Through our drive for improvement, we
+            are able to exceed expectations. Some of our certifications
+            include:</span
+          >
+        </div>
+        <div class="certicates__wrap">
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Application Architect</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Platform Developer I</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Platform Developer II</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Application App Builder</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Business Analyst</span>
+            </div>
+          </div>
+        </div>
+        <div class="certicates__wrap">
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Service Cloud Consultant</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Experience Cloud Consultant</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Sales Cloud Consultant</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Advanced Administrator</span>
+            </div>
+          </div>
+          <div class="hex">
+            <div class="hex__inner">
+              <i class="fa-solid fa-cloud"></i>
+              <span class="hex__cert">CERTIFIED</span>
+              <span class="hex__title">Administrator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faqs-section">
+      <div class="custom-container">
+        <p class="section-title">FREQUENTLY ASKED QUESTIONS</p>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What happens if the hours expire during the month?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We hold a regular weekly call with you to keep you informed on
+                the hours spent and the hours remaining. It will give you a
+                realistic outcome on what can be achieved within the month
+                itself.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How do you ensure continuity on the tailored service?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We have a well-managed Jira board that will be shared with you
+                (if you have your own, we can use that too!) and we document
+                everything we do (e.g., requirements, solution design, process
+                diagrams, handovers, etc.).
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Do you just work on Salesforce?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We are a proud Salesforce partner and we love the Salesforce
+                platform. However, our expertise extends further than that. For
+                example, we have experts in WSO2 and AWS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Are there any limits to what we can do in the support package?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                You are only limited by the hours you have purchased per month.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                What happens if I need more hours?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                You can purchase additional hours at our day rate, or,
+                alternatively, wait until the next month starts, depending on
+                your needs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                Can I bundle hours together?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                There may be occasions whereby you want to bundle some hours
+                together. This can be agreed with our PM on a case-by-case
+                basis.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="git-section">
+      <div class="custom-container">
+        <div class="git-wrapper">
+          <div class="col">
+            <div class="section-t-wrap">
+              <div class="section-title">
+                <p>CONTACT US</p>
+              </div>
+            </div>
+            <div class="form-wrapper">
+              <div class="row">
+                <div class="col">
+                  <input type="text" placeholder="First Name" />
+                </div>
+                <div class="col">
+                  <input type="text" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="text" placeholder="Email Address" />
+                </div>
+                <div class="col">
+                  <input type="text" placeholder="Company" />
+                </div>
+              </div>
+              <div class="col">
+                <textarea class="msg-bx" placeholder="Message..."></textarea>
+              </div>
+              <button class="gsite-btn">SUBMIT</button>
+            </div>
+          </div>
+          <div class="col info-wrapper">
+            <div class="git-logo">
+              <img src="./media/favicon.png" alt="Company Logo" />
+            </div>
+            <div class="git-rf-logo">
+              <img src="./media/RF Logo.png" alt="Company Logo" />
+            </div>
+            <div class="contact-details-wrapper">
+              <div class="contact-details">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>35 New Broad St, London EC2M 1NH, United Kingdom</p>
+              </div>
+              <div class="contact-details">
+                <i class="fa-solid fa-envelope"></i>
+                <p>contactus@ribbonfish.com</p>
+              </div>
+              <div class="contact-smi">
+                <div class="smi-cont">
+                  <a
+                    href="https://www.linkedin.com/company/2741697/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/RibbonfishTeam"
+                    target="_blank"
+                    ><i class="fa-brands fa-square-facebook"></i
+                  ></a>
+                </div>
+                <img
+                  src="./media/Salesforce Logo.png"
+                  alt="Salesforce Partner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="custom-container">
+        <div class="footer-wrapper">
+          <ul class="footer-navs">
+            <li>Home</li>
+            <li>Success Stories</li>
+            <li>News Our Sustainability</li>
+            <li>Contact</li>
+            <li>About</li>
+          </ul>
+          <p>
+            © Ribbonfish 2023. Registered in England and Wales, Company Number
+            6412108 | <span>Privacy Notice</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+  ></script>
+  <script src="https://kit.fontawesome.com/65e82f8b2f.js"></script>
+  <script src="./scripts.js"></script>
+</html>
