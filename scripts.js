@@ -187,17 +187,11 @@ var app = {
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 3,
-          },
-        },
-        {
-          breakpoint: 768,
-          settings: {
             slidesToShow: 2,
           },
         },
         {
-          breakpoint: 567,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
           },
@@ -222,17 +216,11 @@ var app = {
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 3,
-          },
-        },
-        {
-          breakpoint: 768,
-          settings: {
             slidesToShow: 2,
           },
         },
         {
-          breakpoint: 567,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
           },
@@ -286,10 +274,22 @@ var app = {
       autoplaySpeed: 5000,
     });
   },
+
+  mobileDoubleClick: () =>{
+  $('.mobile-menu__sub').hide();
+  $('.mobile-menu__main > li > a').click(function(e) {
+    if ($(this).next('.mobile-menu__sub').length) {
+      e.preventDefault(); // Prevent default link behavior
+      $(this).next('.mobile-menu__sub').slideToggle();
+      $('.mobile-menu__sub').not($(this).next('.mobile-menu__sub')).slideUp();
+    }
+  });
+},
 };
 
 $(document).ready(function () {
   AOS.init({ disable: "mobile" });
+  app.mobileDoubleClick();
   app.slickLogos();
   app.slickTestimonials();
   app.mobileMenu();
