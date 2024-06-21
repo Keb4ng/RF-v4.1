@@ -20,10 +20,6 @@ ul {
   font-family: var(--secondary-font);
 }
 
-main {
-  overflow: hidden;
-}
-
 li {
   list-style-type: none;
 }
@@ -551,6 +547,8 @@ li {
   border: solid 2px transparent;
   max-width: 185px;
   text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .gsite-btn:hover.gsite-btn {
@@ -753,6 +751,13 @@ li {
   margin-bottom: 3rem;
 }
 
+.ds__desc{
+  font-size: 1.2rem;
+  text-align: justify;
+  width: 100%;
+  line-height: 2rem;
+}
+
 .different-section .section-title {
   color: black;
 }
@@ -768,6 +773,8 @@ li {
 
 .diff-bold {
   font-weight: bold;
+  text-align: left;
+  font-size: 1.2rem;
 }
 
 .testimonials-section {
@@ -1095,6 +1102,10 @@ footer {
   flex-direction: row;
 }
 
+.inline-link{
+  color: black;
+}
+
 .intro__img{
   max-width: 550px;
   margin:auto;
@@ -1102,7 +1113,6 @@ footer {
 
 .headline-wrapper .col:nth-child(2) {
   flex-direction: column;
-  gap: 1rem;
 }
 
 .headline-wrapper .col {
@@ -1110,7 +1120,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .headline-wrapper img {
@@ -1132,11 +1141,11 @@ footer {
   text-align: center !important;
   margin: 0;
   line-height: 3.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .headline-wrapper a{
   font-weight: 600;
-  color: black;
   text-decoration: none;
   transition: 300ms;
 }
@@ -1481,6 +1490,7 @@ footer {
   max-width: 250px;
   border: solid 1px transparent;
   transition: 500ms;
+  text-transform: uppercase;
 }
 
 .case-hover a:hover {
@@ -1710,6 +1720,7 @@ footer {
   text-align: center;
   transition: 300ms;
   border: solid 1px  transparent;
+  text-transform: uppercase;
 }
 
 .news__btn:hover{
@@ -1775,7 +1786,8 @@ footer {
 }
 
 .case-study__desc{
-  max-width: 50%;
+  max-width: 1200px;
+  width: 100%;
   font-size: 1.3rem;
 }
 
@@ -1824,17 +1836,6 @@ footer {
 .--btn__yellow:hover{
   background-color: transparent;
   color: var(--primary-clr);
-}
-
-.--btn__inverted{
-  background-color: transparent;
-  color: var(--primary-clr);
-  border: solid 1px var(--primary-clr);
-}
-
-.--btn__inverted:hover{
-  background-color: var(--primary-clr);
-  color: white;
 }
 
 .cs-content__gray-area{
@@ -2270,7 +2271,7 @@ footer {
 
 .section-tagline{
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   text-align: center;
   margin: auto;
   margin-bottom: 3rem;
@@ -2372,6 +2373,33 @@ footer {
   font-family: var(--secondary-font);
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.diagrams-section, .reports-section{
+  padding: 2.5rem 0;
+}
+
+.reports-section{
+  background-color: var(--accent-clr-g);
+}
+
+.reports-section img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 3rem;
+}
+
+.diagrams-wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2.5rem;
+}
+
+.diagrams-wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .team-composition{
@@ -2551,6 +2579,11 @@ footer {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
+  line-height: 2.9rem;
+}
+
+.tech-desc{
+  font-size: 1.3rem;
 }
 
 .--nd-team .section-title p:after {
@@ -3080,6 +3113,10 @@ footer {
   align-items: center;
 }
 
+.diagrams-wrapper{
+  grid-template-columns: auto;
+}
+
 }
 
 /* Smaller screens */
@@ -3190,6 +3227,9 @@ footer {
     line-height: 1.5rem;
   }
   .ip-section-title{
+    font-size: 2rem !important;
+  }
+  .roadmap-view .section-title, .roadmap-titles .section-title{
     font-size: 2rem !important;
   }
 
